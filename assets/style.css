@@ -24,6 +24,19 @@ nav ul {
     justify-content: flex-end;
 }
 
+aside {
+    float: right;
+    width: 10%;
+    padding: 15px;
+    margin: 5px 0px 5px 5px;
+    background-color: var(--red);
+}
+
+aside p {
+    display: flex;
+    
+}
+
 .media-links {
     padding: 15px;
 }
