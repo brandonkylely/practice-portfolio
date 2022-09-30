@@ -6,6 +6,10 @@
     --red: #e76f51;
 }
 
+body {
+    background-color: var(--blue);
+}
+
 header h1 {
     position: relative;
     font-size: 400;
@@ -24,38 +28,57 @@ nav ul {
     justify-content: flex-end;
 }
 
+.media-links {
+    padding: 15px;
+    border: 2px solid var(--green);
+    margin: 5px;
+    background-color: var(--red);
+    border-radius: 10px;
+}
+
 aside {
     float: right;
+    border-radius: 30px;
     width: 10%;
     padding: 15px;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 0px 5px 20px;
     background-color: var(--red);
+    border: 2px solid var(--green)
 }
 
 aside p {
     display: flex;
-    
+    background-color: var(--red);
 }
 
-.media-links {
-    padding: 15px;
+#spacer {
+    background-color: var(--green);
+    width: 10%;
+    height: 10%;
 }
 
 .project {
     position: relative;
-    display: block;
-    padding: 7px 7px 7px 14px;
-    border: 2px solid var(--blue);
-    border-radius: 14px;
-    margin: 10px px 0px 18px;
     display: flex;
+    padding: 7px 7px 7px 14px;
+    border: 2px solid var(--orange);
+    border-radius: 14px;
+    margin: 10px 10px 20px 18px;
+    background-color: var(--red);
 }
 
 .project h2 {
+    width: 30%;
     padding-right: 40px;
 }
 
 /* how can i get the description to go to the right */
 .project p {
     justify-content: flex-end;
+    align-items: right;
+}
+
+.media-links:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px darkgray;
 }
