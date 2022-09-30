@@ -25,5 +25,24 @@ nav ul {
 }
 
 .media-links {
-    padding: 20px;
+    padding: 15px;
+}
+
+.project {
+    position: relative;
+    display: block;
+    padding: 7px 7px 7px 14px;
+    border: 2px solid var(--blue);
+    border-radius: 14px;
+    margin: 10px px 0px 18px;
+    display: flex;
+}
+
+.project h2 {
+    padding-right: 40px;
+}
+
+/* how can i get the description to go to the right */
+.project p {
+    justify-content: flex-end;
 }
