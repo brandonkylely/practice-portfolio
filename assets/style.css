@@ -68,9 +68,13 @@ aside p {
 }
 
 .project h2 {
-    width: 30%;
-    padding-right: 40px;
+    position: relative;
+    margin-top: -20px;
+    background-color: var(--blue);
+    border: 1px solid var(--yellow);
 }
+
+
 
 /* how can i get the description to go to the right */
 .project p {
@@ -82,3 +86,5 @@ aside p {
     cursor: pointer;
     box-shadow: 3px 3px 5px darkgray;
 }
+
+/* TODO: media queries */
