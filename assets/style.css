@@ -28,7 +28,7 @@ nav ul {
     justify-content: flex-end;
 }
 
-.media-links {
+.nav-links {
     padding: 15px;
     border: 2px solid var(--green);
     margin: 5px;
@@ -49,12 +49,6 @@ aside {
 aside p {
     display: flex;
     background-color: var(--red);
-}
-
-#spacer {
-    background-color: var(--green);
-    width: 10%;
-    height: 10%;
 }
 
 .project {
@@ -82,7 +76,7 @@ aside p {
     align-items: right;
 }
 
-.media-links:hover{
+.nav-links:hover{
     cursor: pointer;
     box-shadow: 3px 3px 5px darkgray;
 }
