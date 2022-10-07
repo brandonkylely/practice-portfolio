@@ -12,6 +12,10 @@ body {
     line-height: 1.5;
 }
 
+header {
+    /* background-image: url("https://images.unsplash.com/photo-1504105547124-fc1aee34470d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80") */
+}
+
 header h1 {
     position: relative;
     font-size: 400;
@@ -29,6 +33,11 @@ nav ul {
     margin: 5px;
     background-color: var(--red);
     border-radius: 10px;
+}
+
+.nav-links:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px darkgray;
 }
 
 header img {
@@ -60,7 +69,6 @@ aside p {
     border: 2px solid var(--orange);
     border-radius: 14px;
     margin: 10px 10px 20px 18px;
-    background-color: var(--red);
 }
 
 .project h2 {
@@ -70,17 +78,37 @@ aside p {
     border: 1px solid var(--yellow);
 }
 
-
-
-/* how can i get the description to go to the right */
 .project p {
     justify-content: flex-end;
     align-items: right;
 }
 
-.nav-links:hover{
-    cursor: pointer;
-    box-shadow: 3px 3px 5px darkgray;
+/* background images arent working */
+#project1 {
+    background-image: url("assets/images/randy-fath-G1yhU1Ej-9A-unsplash.jpg");
+}
+  
+#project2 {
+    background-image: url("assets/images/dose-media-3R3sNikjVnA-unsplash.jpg");
+}
+  
+#project3 {
+    background-image: url("assets/images/marilia-castelli-wCVNhNnI_2s-unsplash.jpg");
+}
+  
+#project4 {
+    background-image: url("assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
 }
 
-/* TODO: media queries */
+#project5 {
+    background-image: url("assets/images/leonardo-yip-rn-NLirHQPY-unsplash.jpg");
+}
+
+@media screen and (max-width: 980px) {
+
+}
+  
+@media screen and (max-width: 768px) {
+
+}
+  
