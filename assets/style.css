@@ -83,6 +83,17 @@ aside p {
     align-items: right;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.contact a {
+    display: inline-block;
+    color: var(--orange);
+    padding: 10px;
+}
+
 /* background images arent working */
 #project1 {
     background-image: url("assets/images/randy-fath-G1yhU1Ej-9A-unsplash.jpg");
