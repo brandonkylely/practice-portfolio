@@ -75,19 +75,24 @@ aside p {
     text-decoration: none;
     position: relative;
     display: flex;
-    line-height: 30px;
-    background-color: var(--orange);
+    flex-wrap: wrap;
+    /* line-height: 20px; */
+    margin-left: 5%;
+    background-position: center;
     border: 1px solid var(--blue);
     border-radius: 30px;
+    width: 33%;
 }
 
 .project h2 {
+    position: absolute;
+    left: -10%;
     background-color: var(--green);
     border: 1px solid var(--blue);
     border-radius: 30px;
     justify-content: flex-end;
     align-items: right;
-    margin-top: -20px;
+    /* margin-right: 50px; */
 }
 
 .contact {
