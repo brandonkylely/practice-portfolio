@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: var(--blue);
+    background-color: var(--yellow);
     /* color: ; */
     line-height: 1.5;
 }
@@ -53,20 +53,20 @@ aside {
     width: 10%;
     padding: 15px;
     margin: 5px 0px 5px 20px;
-    background-color: var(--red);
-    border: 2px solid var(--green)
+    background-color: var(--orange);
+    border: 2px solid var(--blue)
 }
 
 aside p {
     display: flex;
-    background-color: var(--red);
+    background-color: var(--orange);
 }
 
 .project {
     position: relative;
     display: flex;
     padding: 7px 7px 7px 14px;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--blue);
     border-radius: 14px;
     margin: 10px 10px 20px 18px;
 }
@@ -74,8 +74,8 @@ aside p {
 .project h2 {
     position: relative;
     margin-top: -20px;
-    background-color: var(--blue);
-    border: 1px solid var(--yellow);
+    background-color: var(--orange);
+    border: 1px solid var(--blue);
 }
 
 .project p {
@@ -90,7 +90,7 @@ aside p {
 
 .contact a {
     display: inline-block;
-    color: var(--orange);
+    color: var(--green);
     padding: 10px;
 }
 
