@@ -65,12 +65,13 @@ aside {
 
 aside p {
     display: flex;
+    justify-content: flex-end;
     background-color: var(--orange);
 }
 
-.work a {
-    position: relative;
-    line-height: 180px;
+.work {
+    display: flex;
+    flex-wrap: wrap;
     padding: 7px;
     margin: 10px;
     margin-top: 50px;
@@ -79,23 +80,26 @@ aside p {
 
 .project {
     text-decoration: none;
-    position: relative;
     display: flex;
     flex-wrap: wrap;
+    line-height: 400px;
+    margin: 3%;
     margin-left: 5%;
     background-position: center;
     border: 1px solid var(--blue);
     border-radius: 30px;
-    width: 33%;
+    width: 42%;
 }
 
 .project h2 {
     position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
     font-size: 50px;
-    line-height: 20px;
+    line-height: 50px;
     background-color: var(--green);
     border: 1px solid var(--blue);
-    border-radius: 30px;
+    border-radius: 5px;
     justify-content: flex-end;
     align-items: right;
     transform: rotate(345deg);
