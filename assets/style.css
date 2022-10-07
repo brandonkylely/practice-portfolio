@@ -94,25 +94,24 @@ aside p {
     padding: 10px;
 }
 
-/* background images arent working */
 #project1 {
-    background-image: url("assets/images/randy-fath-G1yhU1Ej-9A-unsplash.jpg");
+    background-image: url("../assets/images/project1.jpg");
 }
   
 #project2 {
-    background-image: url("assets/images/dose-media-3R3sNikjVnA-unsplash.jpg");
+    background-image: url("../assets/images/project2.jpg");
 }
   
 #project3 {
-    background-image: url("assets/images/marilia-castelli-wCVNhNnI_2s-unsplash.jpg");
+    background-image: url("../assets/images/project3.jpg");
 }
   
 #project4 {
-    background-image: url("assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-image: url("../assets/images/project4.jpg");
 }
 
 #project5 {
-    background-image: url("assets/images/leonardo-yip-rn-NLirHQPY-unsplash.jpg");
+    background-image: url("../assets/images/project5.jpg");
 }
 
 @media screen and (max-width: 980px) {
