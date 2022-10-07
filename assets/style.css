@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 :root{
     --blue: #264653;
     --green: #2a9d8f;
@@ -8,7 +12,7 @@
 
 body {
     background-color: var(--yellow);
-    /* color: ; */
+    color: var(--blue);
     line-height: 1.5;
 }
 
