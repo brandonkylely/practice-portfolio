@@ -20,22 +20,28 @@ header {
     /* background-image: url("https://images.unsplash.com/photo-1504105547124-fc1aee34470d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80") */
 }
 
+header h1, ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 header h1 {
-    position: absolute;
-    font-size: 400;
+    font-size: 3vw;
+    font-weight: bold;
+    background-color: var(--orange);
+    border: 2px solid var(--blue);
 }
 
 nav ul {
     list-style: none;
-    display: flex;
     justify-content: flex-end;
 }
 
 .nav-links {
     padding: 15px;
-    border: 2px solid var(--green);
+    border: 2px solid var(--blue);
     margin: 5px;
-    background-color: var(--red);
+    background-color: var(--orange);
     border-radius: 10px;
 }
 
@@ -99,16 +105,25 @@ aside p {
     /* margin-right: 50px; */
 }
 
-.contact {
+.project:hover {
+    box-shadow: 3px 3px rgb(63, 63, 63);
+}
+
+.contact h2 {
+    display: flex;
+}
+
+.contact address {
     display: flex;
     justify-content: space-around;    
 }
 
 .contact a {
-    display: inline-block;
     color: var(--green);
     padding: 10px;
 }
+
+.contact
 
 #project1 {
     background-image: url("../assets/images/project1.jpg");
