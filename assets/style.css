@@ -72,19 +72,23 @@ aside p {
 }
 
 .project {
+    text-decoration: none;
     position: relative;
     display: flex;
     line-height: 30px;
-    margin-top: -20px;
     background-color: var(--orange);
     border: 1px solid var(--blue);
+    border-radius: 30px;
 }
 
-/* .project p {
+.project h2 {
     background-color: var(--green);
+    border: 1px solid var(--blue);
+    border-radius: 30px;
     justify-content: flex-end;
     align-items: right;
-} */
+    margin-top: -20px;
+}
 
 .contact {
     display: flex;
