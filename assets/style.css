@@ -53,7 +53,7 @@ header img {
     object-fit: none;
 }
 
-aside {
+.about {
     float: right;
     border-radius: 30px;
     width: 10%;
@@ -63,7 +63,7 @@ aside {
     border: 2px solid var(--blue)
 }
 
-aside p {
+.about p {
     display: flex;
     justify-content: flex-end;
     background-color: var(--orange);
@@ -146,10 +146,25 @@ aside p {
 }
 
 @media screen and (max-width: 980px) {
-
+    main {
+        display: flex;
+    }
+    .about {
+        border-radius: 30px;
+        width: 100%;
+        padding: 8px;
+        margin: 5px;
+        background-color: var(--orange);
+        border: 2px solid var(--blue)
+    }
+    .project{
+        width: 50%;
+    }
 }
   
 @media screen and (max-width: 768px) {
-
+    .project {
+        width: 98%;
+    }
 }
   
