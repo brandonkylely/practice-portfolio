@@ -6,7 +6,7 @@ This portfolio is a showcase of projects I have worked on or am currently workin
 
 ## Visuals
 
-![Example](path "Portfolio Preview")
+![Example](assets\images\site-screenshot.jpg "Portfolio Preview")
 
 ## Usage
 
