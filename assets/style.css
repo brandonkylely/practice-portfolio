@@ -3,6 +3,7 @@
   }
 
 :root{
+    --font1: monospace,'Courier New', Courier;
     --blue: #264653;
     --green: #2a9d8f;
     --yellow: #e9c46a;
@@ -19,6 +20,7 @@ body {
 header h1, ul {
     display: flex;
     flex-flow: row wrap;
+    font-family: var(--font1);
 }
 
 header h1 {
@@ -58,6 +60,7 @@ header img {
 }
 
 .about {
+    font-family: var(--font1);
     float: right;
     border-radius: 30px;
     width: 18%;
@@ -89,6 +92,7 @@ header img {
 
 .project {
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* display: flex;
     flex-wrap: wrap; */
     /* flex: 1 0 42%; */
@@ -107,9 +111,10 @@ header img {
 .project h2 {
     position: absolute;
     /* padding-bottom: 15px; */
+    padding: 3px;
     margin-top: -15px;
     margin-left: -15px;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 40px;
     background-color: var(--green);
     border: 1px solid var(--blue);
@@ -129,6 +134,10 @@ header img {
 
 .project:hover {
     box-shadow: 3px 3px 3px rgb(63, 63, 63);
+}
+
+.contact {
+    font-family: var(--font1);
 }
 
 .contact h2 {
@@ -194,13 +203,17 @@ header img {
         /* flex: 1 0 100%; */
         border-radius: 30px;
         padding: 8px;
-        margin: 5px;
+        margin: auto;
         background-color: var(--orange);
         border: 2px solid var(--blue);
         width: 100%;
     }
     .project {
         width: 100%;
+    }
+
+    .contact address {
+        flex-wrap: wrap;
     }
 
 }
